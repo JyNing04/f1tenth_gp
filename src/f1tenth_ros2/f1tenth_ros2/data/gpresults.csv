@@ -1,0 +1,262 @@
+?,Raceline,Speed changing,,,,,,,,,,
+Sepang/Full,RBF + Periodic,RBF + Linear,RQ + Linear,Matern + Linear,Matern + PERIODIC,RQ + PERIODIC ,RBF * RQ,Matern * PERIODIC,Matern * RBF,Matern * Linear,RQ * Linear,RQ * Matern
+Time,226.07,239.1,276.02,84.02,331.9,577.14,382.36,n/a,n/a,n/a,399.97,n/a
+RMSE,0.09433196,0.09425326,0.09223654,0.09427834,0.10934264,0.13443989,0.13677256,n/a,n/a,n/a,0.09151989,n/a
+R2,0.96097087,0.96103596,0.96268554,0.96101523,0.9475615,0.9207266,0.91795178,n/a,n/a,n/a,0.96326313,n/a
+Explain variance,0.99098516,0.99105817,0.99217944,0.99104186,0.97585413,0.94946755,0.94679718,n/a,n/a,n/a,0.99254364,n/a
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+Sepang/Half,RBF + Periodic,RBF + Linear,RQ + Linear,Matern + Linear,Matern + PERIODIC,RQ + PERIODIC ,RBF * RQ,Matern * PERIODIC,Matern * RBF,Matern * Linear,RQ * Linear,RQ * Matern
+Time,30.66,30.82,33.73,24.01,37.86,42.42,78.95,n/a,n/a,59.62,141.93,107.44
+RMSE,0.10241702,0.10231205,0.10060893,0.10237503,0.13028041,0.15068087,0.10950681,n/a,n/a,0.10390791,0.09983669,0.10548277
+R2,0.95424209,0.95433584,0.95584347,0.95427961,0.92595767,0.94282806,0.94768766,n/a,n/a,0.9529002,0.95651873,0.95146166
+Explain variance,0.98395329,0.98411971,0.9860452,0.98409755,0.95537426,0.94869137,0.98005105,n/a,n/a,0.98332556,0.98648869,0.98145046
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+Sepang/One-third,RBF + Periodic,RBF + Linear,RQ + Linear,Matern + Linear,Matern + PERIODIC,RQ + PERIODIC ,RBF * RQ,Matern * PERIODIC,Matern * RBF,Matern * Linear,RQ * Linear,RQ * Matern
+Time,19.2,18.41,27.31,14.57,16.56,21.04,39.13,n/a,n/a,n/a,53.3,n/a
+RMSE,0.1115692,0.1114808,0.10907591,0.1115425,0.13552826,0.11156936,0.11751996,n/a,n/a,n/a,0.10860159,n/a
+R2,0.94560893,0.94569508,0.94801277,0.94563496,0.91974008,0.94560877,0.93965208,n/a,n/a,n/a,0.94846393,n/a
+Explain variance,0.97566259,0.97576129,0.97895568,0.97571799,0.94761846,0.97566251,0.97195186,n/a,n/a,n/a,0.97928864,n/a
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+?,Centerline,Speed changing,,,,,,,,,,
+Sepang/Full,RBF + Periodic,RBF + Linear,RQ + Linear,Matern + Linear,Matern + PERIODIC,RQ + PERIODIC ,RBF * RQ,Matern * PERIODIC,Matern * RBF,Matern * Linear,RQ * Linear,RQ * Matern
+Time,200.69,135.49,197.24,128.19,212.16,193.33,n/a,n/a,n/a,n/a,364.89,n/a
+RMSE,0.06176927,0.06160005,0.05686949,0.06164766,0.07472234,0.06162422,n/a,n/a,n/a,n/a,0.05600074,n/a
+R2,0.9846705,0.98475438,0.98700603,0.9847308,0.97756717,0.98474241,n/a,n/a,n/a,n/a,0.9874,n/a
+Explain variance,0.98955304,0.98963227,0.99149292,0.98960687,0.98157834,0.98956002,n/a,n/a,n/a,n/a,0.99192726,n/a
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+Sepang/Half,RBF + Periodic,RBF + Linear,RQ + Linear,Matern + Linear,Matern + PERIODIC,RQ + PERIODIC ,RBF * RQ,Matern * PERIODIC,Matern * RBF,Matern * Linear,RQ * Linear,RQ * Matern
+Time,33.97,47.81,35.34,23.59,36.95,76,n/a,n/a,n/a,n/a,16.85,n/a
+RMSE,0.07590774,0.07563971,0.07122412,0.07571862,0.092804,0.07590774,n/a,n/a,n/a,n/a,0.07063379,n/a
+R2,0.97693253,0.97709514,0.9796913,0.97704733,0.96552047,0.97693253,n/a,n/a,n/a,n/a,0.98002656,n/a
+Explain variance,0.9817863,0.98201928,0.9843631,0.98197411,0.96962586,0.9817863,n/a,n/a,n/a,n/a,0.98519623,n/a
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+Sepang/One-third,RBF + Periodic,RBF + Linear,RQ + Linear,Matern + Linear,Matern + PERIODIC,RQ + PERIODIC ,RBF * RQ,Matern * PERIODIC,Matern * RBF,Matern * Linear,RQ * Linear,RQ * Matern
+Time,23.62,26.21,34.71,7.71,11.9,28.83,15.22,n/a,n/a,n/a,18,n/a
+RMSE,0.08690732,0.08758651,0.08259735,0.96939039,0.11781783,0.17327954,0.1732806,n/a,n/a,n/a,0.08302016,n/a
+R2,0.96993585,0.9694641,0.97284384,0.96939039,0.94474669,0.88048271,0.88048124,n/a,n/a,n/a,0.9725651,n/a
+Explain variance,0.97519153,0.97478407,0.97779047,0.97471058,0.9496801,0.88573378,0.88573232,n/a,n/a,n/a,0.97841365,n/a
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+?,Raceline,Speed capped,,,,,,,,,,
+Sepang/Full,RBF + Periodic,RBF + Linear,RQ + Linear,Matern + Linear,Matern + PERIODIC,RQ + PERIODIC ,RBF * RQ,Matern * PERIODIC,Matern * RBF,Matern * Linear,RQ * Linear,RQ * Matern
+Time,n/a,120.49,134.49,19.8,239.94,n/a,98.96,n/a,n/a,n/a,337.86,n/a
+RMSE,n/a,0.15768123,0.05626349,0.0579899,0.05780808,n/a,0.06366741,n/a,n/a,n/a,0.07817591,n/a
+R2,n/a,0.86065443,0.98225866,0.98115319,0.98127118,n/a,0.97728214,n/a,n/a,n/a,0.96574854,n/a
+Explain variance,n/a,0.95703116,0.98761259,0.98529214,0.98405704,n/a,0.98331838,n/a,n/a,n/a,0.96856959,n/a
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+Sepang/Half,RBF + Periodic,RBF + Linear,RQ + Linear,Matern + Linear,Matern + PERIODIC,RQ + PERIODIC ,RBF * RQ,Matern * PERIODIC,Matern * RBF,Matern * Linear,RQ * Linear,RQ * Matern
+Time,114.25,30.82,15.34,6.58,27.09,33.05,5.97,n/a,n/a,n/a,20.56,n/a
+RMSE,0.07099064,0.10231205,0.06124809,0.06665657,0.08334817,n/a,0.0755812,n/a,n/a,n/a,0.07140956,n/a
+R2,0.97183899,0.95433584,0.97903807,0.97517256,0.96118155,n/a,0.96474284,n/a,n/a,n/a,0.97150565,n/a
+Explain variance,0.9773825,0.98411971,0.98041744,0.97953452,0.96285841,n/a,0.96566382,n/a,n/a,n/a,0.97815941,n/a
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+Sepang/One-third,RBF + Periodic,RBF + Linear,RQ + Linear,Matern + Linear,Matern + PERIODIC,RQ + PERIODIC ,RBF * RQ,Matern * PERIODIC,Matern * RBF,Matern * Linear,RQ * Linear,RQ * Matern
+Time,12.75,n/a,13.34,3.59,30.91,n/a,8.44,n/a,n/a,n/a,15.11,n/a
+RMSE,0.07300481,n/a,0.07642474,0.07514809,0.10738893,n/a,0.10654141,n/a,n/a,n/a,0.07963624,n/a
+R2,0.97026797,n/a,0.96741712,0.9684966,0.935666,n/a,0.93667744,n/a,n/a,n/a,0.9646212,n/a
+Explain variance,0.97453243,n/a,0.97486864,0.97442899,0.94163089,n/a,0.94185695,n/a,n/a,n/a,0.97189277,n/a
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+?,Centerline,Speed capped,,,,,,,,,,
+Sepang/Full,RBF + Periodic,*RBF + Linear,RQ + Linear,Matern + Linear,Matern + PERIODIC,RQ + PERIODIC ,RBF * RQ,Matern * PERIODIC,Matern * RBF,Matern * Linear,RQ * Linear,RQ * Matern
+Time,n/a,70.73,189.79,15.62,234.89,n/a,n/a,n/a,n/a,n/a,63.9,n/a
+RMSE,n/a,0.06282533,0.0685472,0.06269642,0.05496632,n/a,n/a,n/a,n/a,n/a,0.0615472,n/a
+R2,n/a,0.97877202,0.9780325,0.97885904,0.98375078,n/a,n/a,n/a,n/a,n/a,0.978271,n/a
+Explain variance,n/a,0.97951023,0.9793216,0.97952435,0.98496603,n/a,n/a,n/a,n/a,n/a,0.9797601,n/a
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+Sepang/Half,RBF + Periodic,RBF + Linear,RQ + Linear,Matern + Linear,Matern + PERIODIC,RQ + PERIODIC ,RBF * RQ,Matern * PERIODIC,Matern * RBF,Matern * Linear,RQ * Linear,RQ * Matern
+Time,n/a,5.87,7.67,9.87,75.65,78.87,n/a,n/a,n/a,n/a,19.96,n/a
+RMSE,n/a,0.07284629,0.0727436,0.07258898,0.0790068,0.09573638,n/a,n/a,n/a,n/a,0.07082653,n/a
+R2,n/a,0.9713903,0.97147091,0.97159206,0.96634673,0.95058574,n/a,n/a,n/a,n/a,0.97295479,n/a
+Explain variance,n/a,0.97227466,0.9722872,0.97237071,0.96712184,0.95276688,n/a,n/a,n/a,n/a,0.97528897,n/a
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+Sepang/One-third,RBF + Periodic,RBF + Linear,RQ + Linear,Matern + Linear,Matern + PERIODIC,RQ + PERIODIC ,RBF * RQ,Matern * PERIODIC,Matern * RBF,Matern * Linear,RQ * Linear,RQ * Matern
+Time,n/a,n/a,6.62,3.62,33.28,33.96,7.12,n/a,n/a,n/a,4.81,n/a
+RMSE,n/a,n/a,0.07894515,0.08368849,0.09560284,0.17327954,0.07701028,n/a,n/a,n/a,0.08269991,n/a
+R2,n/a,n/a,0.96673372,0.96261601,0.95121403,0.88048271,0.96834438,n/a,n/a,n/a,0.96349407,n/a
+Explain variance,n/a,n/a,0.9672206,0.9629422,0.95184549,0.88573378,0.9689003,n/a,n/a,n/a,0.96719795,n/a
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+?,Raceline,Speed changing,,,,,,,,,,
+Shanghai/Full,RBF + Periodic,RBF + Linear,RQ + Linear,Matern + Linear,Matern + PERIODIC,RQ + PERIODIC ,RBF * RQ,Matern * PERIODIC,Matern * RBF,Matern * Linear,RQ * Linear,RQ * Matern
+Time,187.46,231.86,247.97,44.99,199.97,253.12,382.36,n/a,n/a,n/a,505.88,n/a
+RMSE,0.06414717,0.06452097,0.05972167,0.06453173,0.10680286,0.06414778,0.13677256,n/a,n/a,n/a,0.0596155,n/a
+R2,0.98352823,0.9833357,0.9857226,0.98333014,0.9543384,0.98352791,0.91795178,n/a,n/a,n/a,0.98577331,n/a
+Explain variance,0.98782787,0.98765589,0.99031996,0.98765331,0.95784023,0.98782798,0.94679718,n/a,n/a,n/a,0.99042603,n/a
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+Shanghai/Half,RBF + Periodic,RBF + Linear,RQ + Linear,Matern + Linear,Matern + PERIODIC,RQ + PERIODIC ,RBF * RQ,Matern * PERIODIC,Matern * RBF,Matern * Linear,RQ * Linear,RQ * Matern
+Time,33.32,68.28,49.36,26.71,41.52,64.04,133.71,n/a,n/a,n/a,92.17,83.22
+RMSE,0.08443729,0.08558158,0.07900171,0.08558212,0.13986316,0.08443734,0.12629583,n/a,n/a,n/a,0.07981857,0.1020809
+R2,0.9715707,0.97079493,0.97511311,0.97079456,0.92199826,0.97157067,0.93639729,n/a,n/a,n/a,0.9745958,0.95844851
+Explain variance,0.97582744,0.97514721,0.97970688,0.97514503,0.92534502,0.97582743,0.93918374,n/a,n/a,n/a,0.97929337,0.96136579
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+Shanghai/One-third,RBF + Periodic,RBF + Linear,RQ + Linear,Matern + Linear,Matern + PERIODIC,RQ + PERIODIC ,RQ * RBF,Matern * PERIODIC,Matern * RBF,Matern * Linear,RQ * Linear,RQ * Matern
+Time,30.52,21.84,23.64,20.68,21.74,31.94,55.84,n/a,n/a,n/a,68.05,34.54
+RMSE,0.10249477,0.10422752,0.09694863,0.10423598,0.13019548,0.14781347,0.1243897,n/a,n/a,n/a,0.09686563,0.09330732
+R2,0.95780347,0.95636468,0.96224655,0.9563576,0.93191285,0.91223905,0.93784986,n/a,n/a,n/a,0.96231116,0.96502926
+Explain variance,0.9618416,0.96046707,0.96689729,0.96045837,0.93522948,0.91559314,0.94239159,n/a,n/a,n/a,0.96693327,0.96917583
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+?,Centerline,Speed changing,,,,,,,,,,
+Shanghai/Full,RBF + Periodic,RBF + Linear,RQ + Linear,Matern + Linear,Matern + PERIODIC,RQ + PERIODIC ,RBF * RQ,Matern * PERIODIC,Matern * RBF,Matern * Linear,RQ * Linear,RQ * Matern
+Time,192.4,277.46,265.49,171.74,182.96,228.77,668.94,n/a,n/a,n/a,523.32,n/a
+RMSE,0.05497836,0.05509612,0.0468515,0.05512637,0.07472234,0.05497827,0.05077547,n/a,n/a,n/a,0.04621721,n/a
+R2,0.98841031,0.98836061,0.99158343,0.98834783,0.98396711,0.98841035,0.99011456,n/a,n/a,n/a,0.99180978,n/a
+Explain variance,0.98881645,0.98875484,0.99210964,0.98874239,0.98447365,0.98881649,0.99074137,n/a,n/a,n/a,0.99237526,n/a
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+Shanghai/Half,RBF + Periodic,RBF + Linear,RQ + Linear,Matern + Linear,Matern + PERIODIC,RQ + PERIODIC ,RBF * RQ,Matern * PERIODIC,Matern * RBF,Matern * Linear,RQ * Linear,RQ * Matern
+Time,25.11,46.17,48.01,24.11,27.93,110.42,120.06,n/a,n/a,n/a,64.98,n/a
+RMSE,0.07713698,0.0773338,0.07733431,0.07736958,0.0646639,0.07713871,0.08234247,n/a,n/a,n/a,0.06899632,n/a
+R2,0.97727022,0.97715408,0.97715378,0.97713294,0.95884354,0.9772692,0.97409893,n/a,n/a,n/a,0.98181465,n/a
+Explain variance,0.97775468,0.97763162,0.97763128,0.97761098,0.95943325,0.9817863,0.97487251,n/a,n/a,n/a,0.98242876,n/a
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+Shanghai/One-third,RBF + Periodic,RBF + Linear,RQ + Linear,Matern + Linear,Matern + PERIODIC,RQ + PERIODIC ,RBF * RQ,Matern * PERIODIC,Matern * RBF,Matern * Linear,RQ * Linear,RQ * Matern
+Time,39.94,28.34,30.57,11.38,13.51,19.32,65.4,n/a,n/a,n/a,59.21,30.43
+RMSE,0.09302983,0.09248661,0.08379016,0.09254043,0.13414991,0.12576567,0.1524592,n/a,n/a,n/a,0.08360944,0.11002697
+R2,0.96713874,0.96752139,0.97334211,0.96748357,0.93166857,0.93994296,0.91174344,n/a,n/a,n/a,0.97345698,0.95403386
+Explain variance,0.96773141,0.96812714,0.97414399,0.96809002,0.93216246,0.94046337,0.91252999,n/a,n/a,n/a,0.97435575,0.95446885
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+?,Raceline,Speed capped,,,,,,,,,,
+Shanghai/Full,RBF + Periodic,RBF + Linear,RQ + Linear,Matern + Linear,Matern + PERIODIC,RQ + PERIODIC ,RBF * RQ,Matern * PERIODIC,Matern * RBF,Matern * Linear,RQ * Linear,RQ * Matern
+Time,n/a,70.49,114.88,19.8,239.94,439.26,98.96,n/a,n/a,n/a,67.81,n/a
+RMSE,n/a,0.07972109,0.09832311,0.0579899,0.05780808,0.40228734,0.06366741,n/a,n/a,n/a,0.07817591,n/a
+R2,n/a,0.97233962,0.94581933,0.98115319,0.98127118,0.09300289,0.97728214,n/a,n/a,n/a,0.96574854,n/a
+Explain variance,n/a,0.97264399,0.96418205,0.98529214,0.98405704,0.9659381,0.98331838,n/a,n/a,n/a,0.96856959,n/a
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+Shanghai/Half,RBF + Periodic,RBF + Linear,RQ + Linear,Matern + Linear,Matern + PERIODIC,RQ + PERIODIC ,RBF * RQ,Matern * PERIODIC,Matern * RBF,Matern * Linear,RQ * Linear,RQ * Matern
+Time,n/a,30.82,19.22,3.82,52.42,50.5,18.86,n/a,n/a,n/a,25.15,n/a
+RMSE,n/a,0.1025357,0.07889131,0.08481259,0.0992095,0.23082113,0.07828026,n/a,n/a,n/a,0.08271893,n/a
+R2,n/a,0.95393701,0.97273156,0.96848462,0.95687705,0.70228742,0.97315234,n/a,n/a,n/a,0.97002137,n/a
+Explain variance,n/a,0.95905387,0.97276996,0.96849064,0.9582361,0.9582361,0.97355551,n/a,n/a,n/a,0.97002465,n/a
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+Shanghai/One-third,RBF + Periodic,RBF + Linear,RQ + Linear,Matern + Linear,Matern + PERIODIC,RQ + PERIODIC ,RBF * RQ,Matern * PERIODIC,Matern * RBF,Matern * Linear,RQ * Linear,RQ * Matern
+Time,n/a,n/a,13.19,4.19,33.4,22.23,3.45,n/a,n/a,n/a,4.43,n/a
+RMSE,n/a,n/a,0.10282238,0.10521512,0.13986085,0.10597928,0.10778335,n/a,n/a,n/a,0.10534562,n/a
+R2,n/a,n/a,0.952474,0.95023635,0.91206773,0.94951087,0.9477773,n/a,n/a,n/a,0.95011282,n/a
+Explain variance,n/a,n/a,0.95250596,0.95034054,0.91340358,0.95023079,0.9477974,n/a,n/a,n/a,0.9501318,n/a
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+?,Centerline,Speed capped,,,,,,,,,,
+Shanghai/Full,RBF + Periodic,*RBF + Linear,RQ + Linear,Matern + Linear,Matern + PERIODIC,RQ + PERIODIC ,RBF * RQ,Matern * PERIODIC,Matern * RBF,Matern * Linear,RQ * Linear,RQ * Matern
+Time,n/a,28.46,28.08,14.17,184.01,161.2,33.33,n/a,n/a,n/a,35.71,n/a
+RMSE,n/a,0.06282533,0.08050099,0.07851284,0.08078268,0.08249773,0.09793031,n/a,n/a,n/a,0.07920425,n/a
+R2,n/a,0.97877202,0.97179578,0.97317171,0.97159804,0.97037927,0.9475855,n/a,n/a,n/a,0.9726971,n/a
+Explain variance,n/a,0.97951023,0.97201717,0.9733226,0.97213966,0.97181776,0.9715179,n/a,n/a,n/a,0.97279207,n/a
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+Shanghai/Half,RBF + Periodic,RBF + Linear,RQ + Linear,Matern + Linear,Matern + PERIODIC,RQ + PERIODIC ,RBF * RQ,Matern * PERIODIC,Matern * RBF,Matern * Linear,RQ * Linear,RQ * Matern
+Time,n/a,5.87,7.67,9.87,75.65,78.87,n/a,n/a,n/a,n/a,19.96,n/a
+RMSE,n/a,0.07284629,0.0727436,0.07258898,0.0790068,0.09573638,n/a,n/a,n/a,n/a,0.07082653,n/a
+R2,n/a,0.9713903,0.97147091,0.97159206,0.96634673,0.95058574,n/a,n/a,n/a,n/a,0.97295479,n/a
+Explain variance,n/a,0.97227466,0.9722872,0.97237071,0.96712184,0.95276688,n/a,n/a,n/a,n/a,0.97528897,n/a
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+Shanghai/One-third,RBF + Periodic,RBF + Linear,RQ + Linear,Matern + Linear,Matern + PERIODIC,RQ + PERIODIC ,RBF * RQ,Matern * PERIODIC,Matern * RBF,Matern * Linear,RQ * Linear,RQ * Matern
+Time,n/a,n/a,6.62,3.62,33.28,33.96,7.12,n/a,n/a,n/a,4.81,n/a
+RMSE,n/a,n/a,0.07894515,0.08368849,0.09560284,0.17327954,0.07701028,n/a,n/a,n/a,0.08269991,n/a
+R2,n/a,n/a,0.96673372,0.96261601,0.95121403,0.88048271,0.96834438,n/a,n/a,n/a,0.96349407,n/a
+Explain variance,n/a,n/a,0.9672206,0.9629422,0.95184549,0.88573378,0.9689003,n/a,n/a,n/a,0.96719795,n/a
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+?,Raceline,Speed changing,,,,,,,,,,
+YasMarina/Full,RBF + Periodic,RBF + Linear,RQ + Linear,Matern + Linear,Matern + PERIODIC,RQ + PERIODIC ,RBF * RQ,Matern * PERIODIC,Matern * RBF,Matern * Linear,RQ * Linear,RQ * Matern
+Time,68.94,119.38,196.95,70.76,59.4,168.9,328.24,90.79,318.75,217.68,218.77,557.88
+RMSE,0.12684375,0.12988215,0.11692673,0.11462006,0.12523166,0.11942305,0.12212411,0.12465705,0.12056705,0.11310361,0.11847801,0.12592775
+R2,0.96055245,0.95863997,0.96647958,0.96778908,0.96154878,0.96503301,0.96343339,0.96190083,0.96435988,0.96863576,0.96558424,0.96112014
+Explain variance,0.96636051,0.96350834,0.97235374,0.97445889,0.96946702,0.97305385,0.97075402,0.97017005,0.97160205,0.97542558,0.97143887,0.96869692
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+YasMarina/Half,RBF + Periodic,RBF + Linear,RQ + Linear,Matern + Linear,Matern + PERIODIC,RQ + PERIODIC ,RBF * RQ,Matern * PERIODIC,Matern * RBF,Matern * Linear,RQ * Linear,RQ * Matern
+Time,28.28,36.98,44.5,21.53,16.34,39.35,45.07,8.15,25.85,51.78,81.62,64.49
+RMSE,0.150681,0.15249075,0.13193171,0.13893185,0.14266632,0.13855614,0.13156092,0.14360832,0.13994474,0.13873352,0.13461153,0.1399098
+R2,0.94282797,0.94144639,0.95617065,0.95139619,0.94874815,0.95165871,0.95641667,0.9480691,0.95068491,0.95153486,0.95437202,0.95070953
+Explain variance,0.94869127,0.94720501,0.96305785,0.96040665,0.95799415,0.95894999,0.96427924,0.95732747,0.95984088,0.96055635,0.96152908,0.95986223
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+YasMarina/One-third,RBF + Periodic,RBF + Linear,RQ + Linear,Matern + Linear,Matern + PERIODIC,RQ + PERIODIC ,RQ * RBF,Matern * PERIODIC,Matern * RBF,Matern * Linear,RQ * Linear,RQ * Matern
+Time,14.9,15.2,7.94,10.1,11.78,17.13,34.73,1.68,14.28,13.1,44.94,24.04
+RMSE,0.16590186,0.17790263,0.15519895,0.1622201,0.1592975,0.17668662,0.1471198,0.15929198,0.16220159,0.16227096,0.15639401,24.04
+R2,0.92832798,0.91758394,0.93727732,0.93147384,0.93392076,0.91870676,0.94363762,0.93392535,0.93148948,0.93143086,0.93630764,0.93390303
+Explain variance,0.93629642,0.92564996,0.94576344,0.94221634,0.94438856,0.92676845,0.95229169,0.94439199,0.94223611,0.94218526,0.94504775,0.9443761
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+?,Centerline,Speed changing,,,,,,,,,,
+YasMarina/Full,RBF + Periodic,RBF + Linear,RQ + Linear,Matern + Linear,Matern + PERIODIC,RQ + PERIODIC ,RBF * RQ,Matern * PERIODIC,Matern * RBF,Matern * Linear,RQ * Linear,RQ * Matern
+Time,112.15,178.36,231.98,100.95,112.5,151.01,409.64,68,412.22,229.04,536.64,399.96
+RMSE,0.14042693,0.17828651,0.16223423,0.15775765,0.13507984,0.17536825,0.13122328,0.15575363,0.14114843,0.15233448,0.16565131,0.14110853
+R2,0.97113788,0.94056816,0.95078843,0.95346679,0.96588359,0.94249784,0.96780385,0.95464151,0.96274931,0.9566111,0.94869355,0.96277037
+Explain variance,0.97113788,0.94519819,0.95619988,0.95937663,0.97305015,0.94709636,0.97505359,0.9634865,0.96923938,0.96282471,0.95401323,0.96926123
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+YasMarina/Half,RBF + Periodic,RBF + Linear,RQ + Linear,Matern + Linear,Matern + PERIODIC,RQ + PERIODIC ,RBF * RQ,Matern * PERIODIC,Matern * RBF,Matern * Linear,RQ * Linear,RQ * Matern
+Time,38.97,23.8,32.07,9.99,27.43,62.81,76.9,13.77,49.49,60.7,96.8,77.17
+RMSE,0.18957992,0.19184029,0.1702553,0.17302985,0.21083154,0.18282821,0.23911323,0.20025018,0.1768515,0.17183621,0.1746142,0.17911695
+R2,0.93095491,0.92929864,0.94431356,0.9424838,0.91460758,0.93578529,0.89016131,0.92296396,0.93991506,0.94327461,0.94142568,0.93836584
+Explain variance,0.93698412,0.93532721,0.95063994,0.94892374,0.92331932,0.94190637,0.89920122,0.93019507,0.94651921,0.94958491,0.94782465,0.94512061
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+YasMarina/One-third,RBF + Periodic,RBF + Linear,RQ + Linear,Matern + Linear,Matern + PERIODIC,RQ + PERIODIC ,RBF * RQ,Matern * PERIODIC,Matern * RBF,Matern * Linear,RQ * Linear,RQ * Matern
+Time,11.8,17.23,24.93,7.05,8.22,22.91,22.94,2.38,29.41,19.96,36.98,19.78
+RMSE,0.2187575,0.22565663,0.19524906,0.18655676,0.2218047,0.21875422,0.18626971,0.22641676,0.18552965,0.18226916,0.19878316,0.18552904
+R2,0.90608451,0.90006732,0.9251849,0.93169802,0.90344987,0.90608732,0.93190804,0.89939293,0.93244803,0.93480148,0.92245201,0.93244848
+Explain variance,0.91183025,0.90582301,0.93172535,0.9382262,0.9127025,0.91183314,0.93901742,0.90906413,0.93952379,0.94154867,0.92913605,0.93952419
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+?,Raceline,Speed capped,,,,,,,,,,
+YasMarina/Full,RBF + Periodic,RBF + Linear,RQ + Linear,Matern + Linear,Matern + PERIODIC,RQ + PERIODIC ,RBF * RQ,Matern * PERIODIC,Matern * RBF,Matern * Linear,RQ * Linear,RQ * Matern
+Time,n/a,n/a,126.81,45.17,195.58,263.31,50.92,n/a,n/a,n/a,45.47,n/a
+RMSE,n/a,n/a,0.09826507,0.11833871,0.10371116,0.26581305,0.09077648,n/a,n/a,n/a,0.09592733,n/a
+R2,n/a,n/a,0.97534266,0.96423967,0.97253378,0.81957345,0.97895764,n/a,n/a,n/a,0.97650191,n/a
+Explain variance,n/a,n/a,0.97690404,0.96700029,0.97578751,0.8224964,0.98188128,n/a,n/a,n/a,0.97930044,n/a
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+YasMarina/Half,RBF + Periodic,RBF + Linear,RQ + Linear,Matern + Linear,Matern + PERIODIC,RQ + PERIODIC ,RBF * RQ,Matern * PERIODIC,Matern * RBF,Matern * Linear,RQ * Linear,RQ * Matern
+Time,23.59,7.3,19.5,2.95,60.94,82.15,n/a,n/a,n/a,n/a,24.1,n/a
+RMSE,0.1466981,0.16936624,0.12366307,0.14676039,0.13260349,0.14219623,n/a,n/a,n/a,n/a,0.1250936,n/a
+R2,0.94395658,0.9252985,0.96017501,0.94390898,0.95420843,0.94734352,n/a,n/a,n/a,n/a,0.9592483,n/a
+Explain variance,0.94724903,0.92826455,0.9616797,0.94722491,0.95747603,0.95047493,n/a,n/a,n/a,n/a,0.96241379,n/a
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+YasMarina/One-third,RBF + Periodic,RBF + Linear,RQ + Linear,Matern + Linear,Matern + PERIODIC,RQ + PERIODIC ,RQ * RBF,Matern * PERIODIC,Matern * RBF,Matern * Linear,RQ * Linear,RQ * Matern
+Time,14.9,3.73,4.15,1.13,21.8,12.12,2.85,n/a,n/a,n/a,5.4,n/a
+RMSE,n/a,n/a,0.15882839,0.17610777,0.15811093,0.17861926,0.15889406,n/a,n/a,n/a,0.15700885,n/a
+R2,n/a,n/a,0.93463373,0.9196373,0.93522294,0.91732885,0.93457967,n/a,n/a,n/a,0.93612283,n/a
+Explain variance,n/a,n/a,0.93853474,0.92189568,0.9377461,0.92285933,0.9370774,n/a,n/a,n/a,0.93858744,n/a
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+?,Centerline,Speed capped,,,,,,,,,,
+YasMarina/Full,RBF + Periodic,RBF + Linear,RQ + Linear,Matern + Linear,Matern + PERIODIC,RQ + PERIODIC ,RBF * RQ,Matern * PERIODIC,Matern * RBF,Matern * Linear,RQ * Linear,RQ * Matern
+Time,n/a,33.69,116.69,42.72,97.24,142.91,n/a,n/a,n/a,n/a,18.03,n/a
+RMSE,n/a,0.20323264,0.20816859,0.20410724,0.1656858,0.14998034,n/a,n/a,n/a,n/a,0.19537945,n/a
+R2,n/a,0.91795767,0.91392412,0.91725002,0.94547174,0.95531933,n/a,n/a,n/a,n/a,0.92417563,n/a
+Explain variance,n/a,0.9403226,0.94791834,0.94043951,0.97257808,0.96456824,n/a,n/a,n/a,n/a,0.94757863,n/a
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+YasMarina/Half,RBF + Periodic,RBF + Linear,RQ + Linear,Matern + Linear,Matern + PERIODIC,RQ + PERIODIC ,RBF * RQ,Matern * PERIODIC,Matern * RBF,Matern * Linear,RQ * Linear,RQ * Matern
+Time,n/a,n/a,30.97,5.62,35.01,n/a,8.08,n/a,n/a,n/a,12.34,n/a
+RMSE,n/a,n/a,0.20381087,0.2108053,0.18938751,n/a,0.1959112,n/a,n/a,n/a,0.20177799,n/a
+R2,n/a,n/a,0.91692979,0.91113031,0.92827124,n/a,0.92324456,n/a,n/a,n/a,0.91857867,n/a
+Explain variance,n/a,n/a,0.94757317,0.93723466,0.95529766,n/a,0.94985615,n/a,n/a,n/a,0.94492616,n/a
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+YasMarina/One-third,RBF + Periodic,RBF + Linear,RQ + Linear,Matern + Linear,Matern + PERIODIC,RQ + PERIODIC ,RBF * RQ,Matern * PERIODIC,Matern * RBF,Matern * Linear,RQ * Linear,RQ * Matern
+Time,11.8,17.23,24.93,7.05,8.22,22.91,3.94,9.55,n/a,n/a,2.86,n/a
+RMSE,0.2187575,0.22565663,0.19524906,0.18655676,0.2218047,0.21875422,0.18626971,n/a,n/a,n/a,0.23674582,n/a
+R2,0.90608451,0.90006732,0.9251849,0.93169802,0.90344987,0.90608732,0.93190804,n/a,n/a,n/a,0.88379284,n/a
+Explain variance,0.91183025,0.90582301,0.93172535,0.9382262,0.9127025,0.91183314,0.93901742,n/a,n/a,n/a,0.91523867,n/a
