@@ -140,8 +140,8 @@ if __name__ == '__main__':
     map_list    = ['Sepang', 'Shanghai', 'YasMarina']
     map_name    = map_list[map_index]
     line_type   = 'raceline_ED' # raceline_ED or centerline
-    save_path   = os.path.expanduser('~/dev_ws/src/f1tenth_ros2/f1tenth_ros2/data/gp_models/')
-    data_path   = os.path.expanduser('~/dev_ws/src/f1tenth_ros2/f1tenth_ros2/data/')
+    save_path   = os.path.expanduser('~/f1tenth_gp/src/f1tenth_ros2/f1tenth_ros2/data/gp_models/')
+    data_path   = os.path.expanduser('~/f1tenth_gp/src/f1tenth_ros2/f1tenth_ros2/data/')
     downsample  = ['halfsample', 'downsample']
     sample_idx  = 1 # 0:half or 1:one-third
     data_name   = ['f1tenth-DYN-{}-{}_{}', 'f1tenth-KIN-{}-{}_{}']

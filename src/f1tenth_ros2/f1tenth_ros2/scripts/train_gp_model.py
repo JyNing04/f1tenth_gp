@@ -17,7 +17,7 @@ from sklearn.gaussian_process import GaussianProcessRegressor
 from sklearn.gaussian_process.kernels import RBF, ConstantKernel, ExpSineSquared, RationalQuadratic, DotProduct, Matern
 from sklearn.metrics import mean_squared_error, r2_score, explained_variance_score
 import sys
-path = os.path.expanduser('~/dev_ws/src/f1tenth_ros2/f1tenth_ros2/plots')
+path = os.path.expanduser('~/f1tenth_gp/src/f1tenth_ros2/f1tenth_ros2/plots')
 sys.path.insert(1, path)
 from plots import plot_true_predicted_variance
 
@@ -33,8 +33,8 @@ map_index   = 0
 map_list    = ['Sepang', 'Shanghai', 'YasMarina']
 map_name    = map_list[map_index]
 line_type   = 'raceline_ED' # raceline_ED or centerline
-save_path   = os.path.expanduser('~/dev_ws/src/f1tenth_ros2/f1tenth_ros2/data/gp_models/')
-data_path   = os.path.expanduser('~/dev_ws/src/f1tenth_ros2/f1tenth_ros2/data/')
+save_path   = os.path.expanduser('~/f1tenth_gp/src/f1tenth_ros2/f1tenth_ros2/data/gp_models/')
+data_path   = os.path.expanduser('~/f1tenth_gp/src/f1tenth_ros2/f1tenth_ros2/data/')
 downsample  = ['halfsample', 'downsample']
 sample_idx  = 1 # 0:half or 1:one-third
 data_size   = 'full' if FULL_DATA else downsample[sample_idx]
@@ -76,7 +76,7 @@ def load_data(CTYPE, map_name, VARIDX, data_path, data_name, line_type, xscaler=
     test_name  = data_name
     if test_mode:
         if new_tracks:
-            data_path   = os.path.expanduser('~/dev_ws/src/f1tenth_ros2/f1tenth_ros2/data/')
+            data_path   = os.path.expanduser('~/f1tenth_gp/src/f1tenth_ros2/f1tenth_ros2/data/')
             map_index   = 2
             map_name    = map_list[map_index]
             line_type   = 'centerline'

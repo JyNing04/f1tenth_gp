@@ -32,8 +32,8 @@ map_index   = 0
 map_list    = ['Sepang', 'Shanghai', 'YasMarina']
 map_name    = map_list[map_index]
 line_type   = 'raceline_ED' # raceline_ED or centerline
-save_path   = os.path.expanduser('~/dev_ws/src/f1tenth_ros2/f1tenth_ros2/data/gp_models/')
-data_path   = os.path.expanduser('~/dev_ws/src/f1tenth_ros2/f1tenth_ros2/data/')
+save_path   = os.path.expanduser('~/f1tenth_gp/src/f1tenth_ros2/f1tenth_ros2/data/gp_models/')
+data_path   = os.path.expanduser('~/f1tenth_gp/src/f1tenth_ros2/f1tenth_ros2/data/')
 downsample  = ['halfsample', 'downsample']
 sample_idx  = 1 # 0:half or 1:one-third
 data_name   = ['f1tenth-DYN-{}-{}_{}', 'f1tenth-KIN-{}-{}_{}']
@@ -135,8 +135,8 @@ if COMPOSE_SET:
 	y_test_arr = np.ones((1,1))
 	for ns in test_set_ns:
 		# Reset paths
-		save_path   = os.path.expanduser('~/dev_ws/src/f1tenth_ros2/f1tenth_ros2/data/gp_models/')
-		data_path   = os.path.expanduser('~/dev_ws/src/f1tenth_ros2/f1tenth_ros2/data/')
+		save_path   = os.path.expanduser('~/f1tenth_gp/src/f1tenth_ros2/f1tenth_ros2/data/gp_models/')
+		data_path   = os.path.expanduser('~/f1tenth_gp/src/f1tenth_ros2/f1tenth_ros2/data/')
 		data_name   = ['f1tenth-DYN-{}-{}_{}', 'f1tenth-KIN-{}-{}_{}']
 		
 		if ns == 'RA_NON-CAP':
@@ -157,7 +157,7 @@ if COMPOSE_SET:
 		y_test_arr = np.concatenate((y_test_arr, y_test))
 	x_test, y_test = continue_test(x_test_arr[1:,:], y_test_arr[1:], xscaler=xscaler, yscaler=yscaler)
 else:
-	data_path   = os.path.expanduser('~/dev_ws/src/f1tenth_ros2/f1tenth_ros2/data/')
+	data_path   = os.path.expanduser('~/f1tenth_gp/src/f1tenth_ros2/f1tenth_ros2/data/')
 	data_name   = ['f1tenth-DYN-{}-{}_{}', 'f1tenth-KIN-{}-{}_{}']
 	save_path, data_path, data_name = data_sel(True, False, save_path, data_path, data_name, downsample, sample_idx)
 	x_test, y_test = load_data(CTYPE, map_name, VARIDX, data_path+'test/', data_name, xscaler=xscaler, yscaler=yscaler, test_mode=True)

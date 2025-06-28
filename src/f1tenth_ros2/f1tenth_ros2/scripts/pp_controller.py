@@ -42,8 +42,8 @@ class PPControllerNode(Node):
         self.original   = False
         speed_profile   = False if self.original else True # True or False
         self.test_mode  = False
-        path            = os.path.expanduser('~/dev_ws/src/f1tenth_ros2/f1tenth_ros2/data/tracks') if not speed_profile \
-            else os.path.expanduser('~/dev_ws/src/f1tenth_ros2/f1tenth_ros2/data/tracks_velocities')
+        path            = os.path.expanduser('~/f1tenth_gp/src/f1tenth_ros2/f1tenth_ros2/data/tracks') if not speed_profile \
+            else os.path.expanduser('~/f1tenth_gp/src/f1tenth_ros2/f1tenth_ros2/data/tracks_velocities')
         self.track_name = '{}_{}_test'.format(map_name, raceline_type) if self.test_mode else '{}_{}'.format(map_name, raceline_type)
         self.file_name  = os.path.join(path, self.track_name + '.csv') if not self.test_mode else os.path.join(path+'/test', self.track_name + '.csv') # waypoints file
         self.CTYPE      = 'PP'

@@ -9,7 +9,7 @@ from scipy import signal
 class TrackParams():
     def __init__(self, map):
         self.map  = map
-        self.path = os.path.expanduser('~/dev_ws/src/f1tenth_ros2/Tracks/' + map)
+        self.path = os.path.expanduser('~/f1tenth_gp/src/f1tenth_ros2/Tracks/' + map)
         race_file = map + "_raceline"
         cent_file = map + "_centerline"
         centerline, self.c_size = self.loading_trackfile(cent_file)

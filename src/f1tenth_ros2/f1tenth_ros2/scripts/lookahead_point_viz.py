@@ -20,7 +20,7 @@ class LookaheadPointVizNode(Node):
     """
     def __init__(self):
         super().__init__('lookahead_point_viz')
-        path            = os.path.expanduser('~/dev_ws/src/f1tenth_ros2/f1tenth_ros2/data/tracks') 
+        path            = os.path.expanduser('~/f1tenth_gp/src/f1tenth_ros2/f1tenth_ros2/data/tracks') 
         map_index       = 0
         map_list        = ['Sepang', 'Shanghai', 'YasMarina']
         map_name        = map_list[map_index]

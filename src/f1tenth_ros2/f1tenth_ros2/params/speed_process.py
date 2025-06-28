@@ -170,7 +170,7 @@ if __name__ == '__main__':
 	track_id   = 2
 	skip_id    = 3
 	map        = ['Sepang', 'Shanghai', 'YasMarina']
-	path       = os.path.expanduser('~/dev_ws/src/f1tenth_ros2/f1tenth_ros2/data/tracks')
+	path       = os.path.expanduser('~/f1tenth_gp/src/f1tenth_ros2/f1tenth_ros2/data/tracks')
 	race_type  = 'centerline' # centerline or raceline_ED
 	track_name = map[track_id]+'_'+race_type # if not test_mode else 'test_'+map[track_id]+ '_'+race_type
 	file_name  = os.path.join(path, track_name + '.csv')

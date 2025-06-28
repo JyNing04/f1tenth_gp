@@ -18,7 +18,7 @@ from geometry_msgs.msg import Point
 class WaypointLoggerNode(Node):
     def __init__(self):
         super().__init__("waypoint_logger")
-        path        = os.path.expanduser('~/dev_ws/src/f1tenth_ros2/Tracks')
+        path        = os.path.expanduser('~/f1tenth_gp/src/f1tenth_ros2/Tracks')
         track_name  = 'Shanghai_map'
         file_name   = os.path.join(path, track_name + '.csv')
         self.file   = open(file_name, 'w')

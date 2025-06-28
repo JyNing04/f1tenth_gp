@@ -106,7 +106,7 @@ class MPCPlanner():
 if __name__ == '__main__':
     N          = 1100
     x0         = [-0.37384143471717834,-0.3233968913555145, 0.1, 5.5, 0.5]
-    path       = os.path.expanduser('~/dev_ws/src/f1tenth_ros2/f1tenth_ros2/data/tracks_velocities') 
+    path       = os.path.expanduser('~/f1tenth_gp/src/f1tenth_ros2/f1tenth_ros2/data/tracks_velocities') 
     map_index  = 0
     map_list   = ['Sepang', 'Shanghai', 'YasMarina']
     map_name   = map_list[map_index]

@@ -4,7 +4,7 @@ import os
 import numpy as np
 from scipy.interpolate import CubicSpline
 
-path       = os.path.expanduser('~/dev_ws/src/f1tenth_ros2/Tracks/Shanghai')
+path       = os.path.expanduser('~/f1tenth_gp/src/f1tenth_ros2/Tracks/Shanghai')
 track_name = 'Shanghai_centerline'
 file_name  = os.path.join(path, track_name + '.csv')
 race_track = []

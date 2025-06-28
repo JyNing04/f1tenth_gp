@@ -20,7 +20,7 @@ class ReferencePathVizNode(Node):
     """
     def __init__(self):
         super().__init__('reference_path_viz')
-        self.path       = os.path.expanduser('~/dev_ws/src/f1tenth_ros2/f1tenth_ros2/data/tracks') 
+        self.path       = os.path.expanduser('~/f1tenth_gp/src/f1tenth_ros2/f1tenth_ros2/data/tracks') 
         map_index       = 0
         map_list        = ['Sepang', 'Shanghai', 'YasMarina']
         map_name        = map_list[map_index]

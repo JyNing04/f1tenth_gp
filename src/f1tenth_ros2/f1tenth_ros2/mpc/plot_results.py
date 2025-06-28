@@ -12,7 +12,7 @@ import math
 from scipy import signal
 
 map       = "Sepang" # Shanghai, Sepang, YasMarina
-path      = os.path.expanduser('~/dev_ws/src/f1tenth_ros2/Tracks/'+map)
+path      = os.path.expanduser('~/f1tenth_gp/src/f1tenth_ros2/Tracks/'+map)
 race_file = map + "_raceline"
 cent_file = map + "_centerline"
 save      = False
@@ -170,7 +170,7 @@ def save_file(file, path, raceline):
     np.savetxt(file_name, raceline, delimiter=',')
 
 if save:
-    path = os.path.expanduser('~/dev_ws/src/f1tenth_ros2/f1tenth_ros2/data/tracks') 
+    path = os.path.expanduser('~/f1tenth_gp/src/f1tenth_ros2/f1tenth_ros2/data/tracks') 
     save_file(race_file+'_ED', path, raceline)
     print("Saving file: "+race_file+'_ED')
 
