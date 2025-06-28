@@ -174,8 +174,8 @@ if save:
     save_file(race_file+'_ED', path, raceline)
     print("Saving file: "+race_file+'_ED')
 
-mpc_path = "/home/ning/dev_ws/src/f1tenth_ros2/f1tenth_ros2/data/mpc/raceline/f1tenth-DYN-MPC-Sepang_raceline_ED-plot.npz"
-gpmpc_path = "/home/ning/dev_ws/src/f1tenth_ros2/f1tenth_ros2/data/mpc/raceline/f1tenth-EKIN-GPMPC-Sepang_raceline_ED.npz"
+mpc_path = "/home/ning/f1tenth_gp/src/f1tenth_ros2/f1tenth_ros2/data/mpc/raceline/f1tenth-DYN-MPC-Sepang_raceline_ED-plot.npz"
+gpmpc_path = "/home/ning/f1tenth_gp/src/f1tenth_ros2/f1tenth_ros2/data/mpc/raceline/f1tenth-EKIN-GPMPC-Sepang_raceline_ED.npz"
 mpcdata = np.load(mpc_path)
 gpmpcdata = np.load(gpmpc_path)
 

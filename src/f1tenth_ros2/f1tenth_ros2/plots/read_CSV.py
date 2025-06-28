@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import csv
 
 # Load csv file
-file = np.genfromtxt("/home/ning/dev_ws/src/f1tenth_ros2/f1tenth_ros2/data/gpresults.csv", delimiter=',', dtype=str)
+file = np.genfromtxt("/home/ning/f1tenth_gp/src/f1tenth_ros2/f1tenth_ros2/data/gpresults.csv", delimiter=',', dtype=str)
 col  = 12
 ##########################
 # Calculate total time

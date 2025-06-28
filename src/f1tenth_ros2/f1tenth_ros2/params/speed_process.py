@@ -179,11 +179,11 @@ if __name__ == '__main__':
 	kin_fname = 'f1tenth-KIN-{}-{}.npz'
 	# Where data has been stored
 	if ORIGINAL:
-		data_path = '/home/ning/dev_ws/src/f1tenth_ros2/f1tenth_ros2/data/original/'
+		data_path = '/home/ning/f1tenth_gp/src/f1tenth_ros2/f1tenth_ros2/data/original/'
 	elif race_type == 'centerline':
-		data_path = '/home/ning/dev_ws/src/f1tenth_ros2/f1tenth_ros2/data/centerline/'
+		data_path = '/home/ning/f1tenth_gp/src/f1tenth_ros2/f1tenth_ros2/data/centerline/'
 	else:
-		data_path = '/home/ning/dev_ws/src/f1tenth_ros2/f1tenth_ros2/data/raceline/'
+		data_path = '/home/ning/f1tenth_gp/src/f1tenth_ros2/f1tenth_ros2/data/raceline/'
 	# In test mode
 	if test_mode:
 		data_path += 'test/'
@@ -279,9 +279,9 @@ if __name__ == '__main__':
 		print("Saving data.....")
 		track_dict = {'X': track_x, 'Y': track_y, 'velocity':track_v}
 		if test_mode:
-			df = pd.DataFrame(track_dict).to_csv('/home/ning/dev_ws/src/f1tenth_ros2/f1tenth_ros2/data/tracks_velocities/test/{}_test.csv'.format(track_name),index=False)
+			df = pd.DataFrame(track_dict).to_csv('/home/ning/f1tenth_gp/src/f1tenth_ros2/f1tenth_ros2/data/tracks_velocities/test/{}_test.csv'.format(track_name),index=False)
 		else:
-			df = pd.DataFrame(track_dict).to_csv('/home/ning/dev_ws/src/f1tenth_ros2/f1tenth_ros2/data/tracks_velocities/{}.csv'.format(track_name),index=False)
+			df = pd.DataFrame(track_dict).to_csv('/home/ning/f1tenth_gp/src/f1tenth_ros2/f1tenth_ros2/data/tracks_velocities/{}.csv'.format(track_name),index=False)
 		
 		# Plot track velocity 
 		plot_trackV(track_x, track_y, track_v, track_size)

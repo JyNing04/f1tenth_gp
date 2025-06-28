@@ -20,7 +20,7 @@ TRACK_NAME    = track_name_ls[track_id] + '_centerline' if 'centerline' in race_
 SAMPLING_TIME  = 0.021
 dyn_fname = 'f1tenth-DYN-{}-{}.npz'
 kin_fname = 'f1tenth-KIN-{}-{}.npz'
-data_path = '/home/ning/dev_ws/src/f1tenth_ros2/f1tenth_ros2/data/centerline/' if 'center' in race_type else '/home/ning/dev_ws/src/f1tenth_ros2/f1tenth_ros2/data/raceline'
+data_path = '/home/ning/f1tenth_gp/src/f1tenth_ros2/f1tenth_ros2/data/centerline/' if 'center' in race_type else '/home/ning/f1tenth_gp/src/f1tenth_ros2/f1tenth_ros2/data/raceline'
 # Load vehicle params
 
 params = f110.F110()
@@ -28,7 +28,7 @@ model  = Ekinematic.Kinematic()
 
 # Load inputs used to simulate Dynamic model
 if ORIGINAL:
-	data_path = '/home/ning/dev_ws/src/f1tenth_ros2/f1tenth_ros2/data/original/'
+	data_path = '/home/ning/f1tenth_gp/src/f1tenth_ros2/f1tenth_ros2/data/original/'
 	
 if test_mode:
 	data_path += 'test/'

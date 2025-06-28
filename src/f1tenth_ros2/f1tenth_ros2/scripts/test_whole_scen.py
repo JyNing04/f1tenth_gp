@@ -18,7 +18,7 @@ from sklearn.gaussian_process import GaussianProcessRegressor
 from sklearn.gaussian_process.kernels import RBF, ConstantKernel, ExpSineSquared, RationalQuadratic, DotProduct, Matern
 from sklearn.metrics import mean_squared_error, r2_score, explained_variance_score
 import sys
-sys.path.insert(1, '/home/ning/dev_ws/src/f1tenth_ros2/f1tenth_ros2/plots')
+sys.path.insert(1, '/home/ning/f1tenth_gp/src/f1tenth_ros2/f1tenth_ros2/plots')
 from plots import plot_true_predicted_variance
 
 #####################################################################

@@ -215,10 +215,10 @@ class DYNMPCControllerNode(Node):
 			time    = np.insert(np.trim_zeros(self.time_f),0, 0.0)
 			time    = time[len(idx_d):] - time[len(idx_d)]
 			file_ns = 'f1tenth-DYN-{}-{}-plot.npz'
-			path    = '/home/ning/dev_ws/src/f1tenth_ros2/f1tenth_ros2/data/mpc/raceline/' if 'raceline' in self.track_name \
-						else '/home/ning/dev_ws/src/f1tenth_ros2/f1tenth_ros2/data/mpc/centerline/'
+			path    = '/home/ning/f1tenth_gp/src/f1tenth_ros2/f1tenth_ros2/data/mpc/raceline/' if 'raceline' in self.track_name \
+						else '/home/ning/f1tenth_gp/src/f1tenth_ros2/f1tenth_ros2/data/mpc/centerline/'
 			if self.original:
-				path = '/home/ning/dev_ws/src/f1tenth_ros2/f1tenth_ros2/data/mpc/original/'
+				path = '/home/ning/f1tenth_gp/src/f1tenth_ros2/f1tenth_ros2/data/mpc/original/'
 			if self.save_data:
 				np.savez(
 						path + file_ns.format(self.CTYPE, self.track_name),

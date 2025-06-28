@@ -88,8 +88,8 @@ class EKMPCControllerNode(Node):
 		# Define controller
 		self.mpc_sol = setupMPC(self.Horizon, time_step, COST_Q, COST_P, COST_R, COST_S, self.params, self.model, track_width, map_name, proj_cons=True, track_cons=False)
 		# Load GP models
-		ωmodel_path  = "/home/ning/dev_ws/src/f1tenth_ros2/f1tenth_ros2/data/gp_models/raceline/Sepang_raceline_ED-full-ω-RQ+LINEAR_gp.pickle"
-		βmodel_path  = "/home/ning/dev_ws/src/f1tenth_ros2/f1tenth_ros2/data/gp_models/raceline/Sepang_raceline_ED-full-β-RQ+LINEAR_gp.pickle"
+		ωmodel_path  = "/home/ning/f1tenth_gp/src/f1tenth_ros2/f1tenth_ros2/data/gp_models/raceline/Sepang_raceline_ED-full-ω-RQ+LINEAR_gp.pickle"
+		βmodel_path  = "/home/ning/f1tenth_gp/src/f1tenth_ros2/f1tenth_ros2/data/gp_models/raceline/Sepang_raceline_ED-full-β-RQ+LINEAR_gp.pickle"
 		self.ωmodel, self.xωscaler, self.yωscaler = self.load_gpmodel(ωmodel_path)
 		self.βmodel, self.xβscaler, self.yβscaler = self.load_gpmodel(βmodel_path)
 		# Record running
@@ -230,10 +230,10 @@ class EKMPCControllerNode(Node):
 			time    = np.insert(np.trim_zeros(self.time_f),0, 0.0)
 			time    = time[len(idx_d):] - time[len(idx_d)]
 			file_ns = 'f1tenth-EKIN-{}-{}.npz'
-			path    = '/home/ning/dev_ws/src/f1tenth_ros2/f1tenth_ros2/data/mpc/raceline/' if 'raceline' in self.track_name \
-						else '/home/ning/dev_ws/src/f1tenth_ros2/f1tenth_ros2/data/mpc/centerline/'
+			path    = '/home/ning/f1tenth_gp/src/f1tenth_ros2/f1tenth_ros2/data/mpc/raceline/' if 'raceline' in self.track_name \
+						else '/home/ning/f1tenth_gp/src/f1tenth_ros2/f1tenth_ros2/data/mpc/centerline/'
 			if self.original:
-				path = '/home/ning/dev_ws/src/f1tenth_ros2/f1tenth_ros2/data/mpc/original/'
+				path = '/home/ning/f1tenth_gp/src/f1tenth_ros2/f1tenth_ros2/data/mpc/original/'
 			if self.save_data:
 				np.savez(
 						path + file_ns.format(self.CTYPE, self.track_name),

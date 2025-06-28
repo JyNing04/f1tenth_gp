@@ -178,7 +178,7 @@ if __name__ == '__main__':
     print(n_steps)
     plot_states(states, states_k)
 
-    data_test = np.load("/home/ning/dev_ws/src/f1tenth_ros2/f1tenth_ros2/plots/plotstest_y.npz")
+    data_test = np.load("/home/ning/f1tenth_gp/src/f1tenth_ros2/f1tenth_ros2/plots/plotstest_y.npz")
     testY = data_test['testY'].reshape(-1,)
     kinY  = states_k[3:,5]
     testY = signal.resample(testY, kinY.shape[0])

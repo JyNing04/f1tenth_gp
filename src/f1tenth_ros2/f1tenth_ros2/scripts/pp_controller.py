@@ -193,10 +193,10 @@ class PPControllerNode(Node):
             time    = np.insert(np.trim_zeros(self.time_f),0, 0.0)
             time    = time[len(idx_d):] - time[len(idx_d)]
             file_ns = 'f1tenth-DYN-{}-{}.npz'
-            path    = '/home/ning/dev_ws/src/f1tenth_ros2/f1tenth_ros2/data/raceline/' if 'raceline' in self.track_name \
-                        else '/home/ning/dev_ws/src/f1tenth_ros2/f1tenth_ros2/data/centerline/'
+            path    = '/home/ning/f1tenth_gp/src/f1tenth_ros2/f1tenth_ros2/data/raceline/' if 'raceline' in self.track_name \
+                        else '/home/ning/f1tenth_gp/src/f1tenth_ros2/f1tenth_ros2/data/centerline/'
             if self.original:
-                path = '/home/ning/dev_ws/src/f1tenth_ros2/f1tenth_ros2/data/original/'
+                path = '/home/ning/f1tenth_gp/src/f1tenth_ros2/f1tenth_ros2/data/original/'
             if self.test_mode:
                 path += 'test/'
             if self.save_data:
